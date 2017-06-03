@@ -7,8 +7,8 @@ image:
 tags: Termux
 comments: true
 ---
-[Termux.0.5](http://funs.ml/file/Termux.apk)  
-如果安装不上请卸载其他插件再重新安装.   
+[Termux.0.5](http://funs.ml/file/Termux.apk)     
+如果安装不上请卸载其他插件再重新安装.      
 [Termux.widget.0.7](http://funs.ml/file/Termux.widget.0.7.apk)   
 [Termux.styling.0.16](http://funs.ml/file/Termux.styling.0.16.apk)   
 [Termux.task.0.1](http://funs.ml/file/Termux.task.0.1.apk)   
