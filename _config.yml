@@ -4,7 +4,7 @@ email: 2459727330@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   My Blog
 baseurl: "" # 网站目录
-url: "http://g.funs.ml/" # 域名
+url: "http://funs.ml/" # 域名
 # icon
 icon-16x16: /assets/images/icon/favicon-16x16.ico
 icon-32x32: /assets/images/icon/favicon-32x32.ico
