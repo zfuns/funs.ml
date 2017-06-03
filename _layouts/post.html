@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<br>
+    <div class="row">
+      <div class="col s12">
+        <div id="postsContent" class="card-panel white">
+          <span>
+            {{ content }}
+          </span>
+            {% if page.comments %}
+    
+            {% include disqus.html %}
+
+            {% endif %}
+        </div>
+      </div>
+    </div>
+<div class="row">
+{% if page.previous.url %}
+<a data-position="left" data-delay="50" data-tooltip="{{page.previous.title}}" href="{{page.previous.url | prepend: site.baseurl }}" class="btn-floating waves-effect waves-grey btn-flat white tooltipped"><i class="material-icons black-text">arrow_back</i></a>
+{% endif %}
+{% if page.next.url %}
+<a data-position="right" data-delay="50" data-tooltip="{{page.next.title}}" href="{{page.next.url | prepend: site.baseurl }}" class="btn-floating waves-effect waves-grey btn-flat white right tooltipped"><i class="material-icons black-text">arrow_forward</i></a>
+{% endif %}
+</div>

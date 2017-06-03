@@ -1,0 +1,44 @@
+<footer class="page-footer {% case page.url %}{% when '/' %}{{ site.theme-color.home-color }}{% when '/about.html' %}{{ site.theme-color.about-color }}{% when '/archive.html' %}{{ site.theme-color.archive-color }}{% when '/links.html' %}{{ site.theme-color.links-color }}{% when '/tags.html' %}{{ site.theme-color.tags-color }}{% else %}{{ site.theme-color.default-color }}{% endcase %}">
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <p class="center p-linkIcon">
+                    {% for href in site.data.myherfs %}
+                    {% if href.url!="" %}
+                <a href="{{ href.url }}"><img class="linkIcon center" src="{{ "/assets/images/footer/footer_ico-" | prepend: site.baseurl }}{{ href.name }}.png" alt=""></a>
+                    {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col s12 m4 l4">
+                <p class="p-date grey-text text-lighten-4 center">Copyright ©  2017  {{ site.title }}</p>
+            </div>
+            <div class="col s12 m4 l4 right">
+                <div class="row copyright-row">
+                    <div class="col s12 center white-text">
+                          <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+<span id="busuanzi_container_site_uv">
+  本站访客数<span id="busuanzi_value_site_uv"></span>人次
+</span>
+                    </div>
+                    <div class="col s12 center white-text">
+                    Powered by <a class="white-text" href="https://jekyllrb.com/">Jekyll</a>
+                    </div>
+                    <div class="col s12 center white-text">
+                    Theme by <a class="white-text" href="https://rubygems.org/gems/jekyll-theme-materialize">KeJun</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer-copyright">
+        <div class="container">
+            All rights reserved.
+            <a class="grey-text text-lighten-4 right" href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+</div>
+    </div>
+</footer>
+<style>
+</style>
