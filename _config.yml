@@ -11,7 +11,7 @@ icon-32x32: /assets/images/icon/favicon-32x32.ico
 # theme color
 theme-color: { 
   default-color: blue-grey, 
-  home-color: blue-grey,
+  home-color: cyan,
   about-color: red,
   archive-color: pink,
   links-color: purple,
