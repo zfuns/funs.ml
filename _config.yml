@@ -10,7 +10,7 @@ icon-16x16: /assets/images/icon/favicon-16x16.ico
 icon-32x32: /assets/images/icon/favicon-32x32.ico
 # theme color
 theme-color: { 
-  default-color: blue-grey, 
+  default-color: cyan, 
   home-color: cyan,
   about-color: red,
   archive-color: pink,
