@@ -1,1 +1,1 @@
-<shell>pwd</shell>
+pwd
